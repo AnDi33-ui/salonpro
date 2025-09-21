@@ -1,0 +1,42 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e6]
+        - generic [ref=e12]: SalonPro
+      - paragraph [ref=e13]: Accedi al tuo account
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: Email
+          - textbox "Email" [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: Password
+          - generic [ref=e21]:
+            - textbox "Password" [ref=e22]
+            - button [ref=e23]:
+              - img [ref=e24]
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - checkbox "Ricordami" [ref=e29]
+            - generic [ref=e30]: Ricordami
+          - link "Password dimenticata?" [ref=e31] [cursor=pointer]:
+            - /url: /auth/forgot-password
+        - button "Accedi" [ref=e32]
+      - generic [ref=e33]:
+        - heading "Demo Credentials:" [level=3] [ref=e34]
+        - paragraph [ref=e35]: "Email: demo@salonpro.it"
+        - paragraph [ref=e36]: "Password: demo123"
+      - paragraph [ref=e38]:
+        - text: Non hai un account?
+        - link "Registrati gratuitamente" [ref=e39] [cursor=pointer]:
+          - /url: /auth/register
+    - link "← Torna alla homepage" [ref=e41] [cursor=pointer]:
+      - /url: /
+  - button "Open Next.js Dev Tools" [ref=e47] [cursor=pointer]:
+    - img [ref=e48] [cursor=pointer]
+  - alert [ref=e52]
+```
